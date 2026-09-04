@@ -17,16 +17,17 @@ Ubuntu Server administration
 SSH remote access
 Linux users, groups, and permissions
 
-Lab Architecture 
+## Lab Architecture
 
-System        Role                                          IP Address
-LAB-DC01      Windows Server Domain Controller, AD DS, DNS. 192.168.153.128
-IT-WS01       Windows 11 Domain Workstation for IT Admin    192.168.153.129
-LAB-UBUNTU01. Ubuntu Server                                 192.168.153.132
+| System | Role | IP Address |
+|---|---|---|
+| LAB-DC01 | Windows Server Domain Controller, AD DS, DNS | 192.168.153.128 |
+| IT-WS01 | Windows 11 Domain Workstation for IT Admin | 192.168.153.129 |
+| LAB-UBUNTU01 | Ubuntu Server | 192.168.153.132 |
 
-Domain: bsmentlab.local
+**Domain:** `bsmentlab.local`
 
-Active Directory
+## Active Directory
 
 The domain controller provided centralized authentication and identity management for the environment. 
 
