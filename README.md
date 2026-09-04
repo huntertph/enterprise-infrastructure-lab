@@ -7,15 +7,15 @@ Home Lab built to simulate enterprise IT environments using Windows Server, Acti
 This project was created to refreshen my Ubuntu Server skills, and strengthen my practical infrastructure and systems administration skills by building and troubleshooting a small multi-system environment from the ground up.
 
 ### The Lab includes:
-Windows Server Domain Controller
-Active Directory Domain Services
-Organizational Units and Security Groups
-Powershell-based user provisioning 
-Group policy management 
-Domain-joined Windows 11 workstation's
-Ubuntu Server administration
-SSH remote access
-Linux users, groups, and permissions
+- Windows Server Domain Controller
+- Active Directory Domain Services
+- Organizational Units and Security Groups
+- Powershell-based user provisioning
+- Group policy management
+- Domain-joined Windows 11 workstation's
+- Ubuntu Server administration
+- SSH remote access
+- Linux users, groups, and permissions
 
 ## Lab Architecture
 
@@ -49,7 +49,9 @@ The scripts process was as follows:
 5. Enables the user account
 6. Requires a password change at first log in
 
-This pattern reduced repetitive manual data entry and administration, also provided more familiarity with Powershell and command-line Active Directory automation.
+This pattern reduced repetitive manual data entry and administration, also provided more familiarity with Powershell and command-line Active Directory automation. 
+
+A more detailed look at the scripts and scripting process is available in the Powershell folder.
 
 ## DNS
 
@@ -72,13 +74,15 @@ Managed through Group Policy
 
 The main Group Policy Object (GPO) I used in this environment was titled Workstation Security Baseline. 
 
-This was an overarching GPO that linked to all User Groups inside of the domain. It was configured to use an authorized-use login banner on domain workstations.
+This was an overarching GPO that linked to the Workstations OU. It was configured to use an authorized-use login banner on domain workstations.
 
 This group policy was validated on user endpoints using 
+```powershell
 gpupdate /force
 gpresult /r /scope computer 
+```
 
-This provided experience troubleshooting GPO application, OU placement, permissions, and computer level processing. 
+This provided experience troubleshooting GPO application, OU placement, permissions, and computer level processing. A more in depth explanation is avaialble in the group policy folder.
 
 ## Ubuntu Server
 
