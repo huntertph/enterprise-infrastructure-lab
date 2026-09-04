@@ -1,11 +1,12 @@
-Enterprise Infrastructure Lab
+# Enterprise Infrastructure Lab
 
 Home Lab built to simulate enterprise IT environments using Windows Server, Active Directory, Group Policy, Power shell, Windows 11, and Ubuntu Server administration skills/
 
-Overview 
+## Overview 
+
 This project was created to refreshen my Ubuntu Server skills, and strengthen my practical infrastructure and systems administration skills by building and troubleshooting a small multi-system environment from the ground up.
 
-The Lab includes:
+### The Lab includes:
 Windows Server Domain Controller
 Active Directory Domain Services
 Organizational Units and Security Groups
@@ -34,7 +35,7 @@ The Active Directory structure includes Organizational units for users, workstat
 For a more detailed look at the Active Directory structure and security groups I created for this environment, take a look at the Active Directory folder.
 
 
-PowerShell Automation
+## PowerShell Automation
 
 Powershell was used to automate Active Directory user creation from CSV data.
 
@@ -49,7 +50,7 @@ The scripts process was as follows:
 
 This pattern reduced repetitive manual data entry and administration, also provided more familiarity with Powershell and command-line Active Directory automation.
 
-DNS
+## DNS
 
 Alongside acting as the ADDC, LAB-DC01 also acted as the DNS server for all domain systems. 
 
@@ -57,7 +58,7 @@ Clients within the domain can use the domain controller for DNS to resolve inter
 
 External DNS requests are forwarded to public DNS servers and Active Directory authentication and service discovery. 
 
-Windows 11 Workstations
+## Windows 11 Workstations
 
 There were several Windows 11 Pro virtual machines joined to the bsmentlab.local domain.
 
@@ -66,7 +67,7 @@ Moved into the Workstations OU
 Tested using a domain user account from earlier Powershell scripts
 Managed through Group Policy
 
-Group Policy:
+## Group Policy:
 
 The main Group Policy Object (GPO) I used in this environment was titled Workstation Security Baseline. 
 
@@ -78,43 +79,43 @@ gpresult /r /scope computer
 
 This provided experience troubleshooting GPO application, OU placement, permissions, and computer level processing. 
 
-Ubuntu Server
+## Ubuntu Server
 
 For this lab a Ubuntu Server virtual machine was also added to the enviroment for Linux administration practice.
 
 Configuration as follows:
 
-OpenSSH Server
-Remote SSH administration
-Linux User management 
-Group-based permissions
-Dedicated application directory
-Standard Linux ownership and permission configuration
+1. OpenSSH Server
+2. Remote SSH administration
+3. Linux User management
+4. Group-based permissions
+5. Dedicated application directory
+6. Standard Linux ownership and permission configuration
 
 More in depth explanation of this server and how I handled the set-up is located in the Ubuntu folder.
 
-Skills demonstrated
+## Skills demonstrated
 
-* Windows Server administration
-* Active Directory
-* DNS
-* Powershell
-* Windows domain administration
-* Linux administration
-* SSH
-* Linux permissions
-* Virtualization
-* Troubleshooting
-* Identity and access management
-* Infrastructure automation
+- Windows Server administration
+- Active Directory
+- DNS
+- Powershell
+- Windows domain administration
+- Linux administration
+- SSH
+- Linux permissions
+- Virtualization
+- Troubleshooting
+- Identity and access management
+- Infrastructure automation
 
-Future Improvments include:
-Planned additions include:
 
-SSH key-based authentication 
-Additional PowerShell reporting scripts
-Linux service management with systemd
-Additional security orientated Group Policies
+## Planned additions include:
+
+- SSH key-based authentication
+- Additional PowerShell reporting scripts
+- Linux service management with systemd
+- Additional security orientated Group Policies
 
 
 
