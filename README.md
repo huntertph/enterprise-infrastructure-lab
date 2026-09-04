@@ -73,10 +73,49 @@ The main Group Policy Object (GPO) I used in this environment was titled Worksta
 This was an overarching GPO that linked to all User Groups inside of the domain. It was configured to use an authorized-use login banner on domain workstations.
 
 This group policy was validated on user endpoints using 
-gpuupdate /force
-gpuresult /r /scope computer 
+gpupdate /force
+gpresult /r /scope computer 
 
 This provided experience troubleshooting GPO application, OU placement, permissions, and computer level processing. 
+
+Ubuntu Server
+
+For this lab a Ubuntu Server virtual machine was also added to the enviroment for Linux administration practice.
+
+Configuration as follows:
+
+OpenSSH Server
+Remote SSH administration
+Linux User management 
+Group-based permissions
+Dedicated application directory
+Standard Linux ownership and permission configuration
+
+More in depth explanation of this server and how I handled the set-up is located in the Ubuntu folder.
+
+Skills demonstrated
+
+* Windows Server administration
+* Active Directory
+* DNS
+* Powershell
+* Windows domain administration
+* Linux administration
+* SSH
+* Linux permissions
+* Virtualization
+* Troubleshooting
+* Identity and access management
+* Infrastructure automation
+
+Future Improvments include:
+Planned additions include:
+
+SSH key-based authentication 
+Additional PowerShell reporting scripts
+Linux service management with systemd
+Additional security orientated Group Policies
+
 
 
 
