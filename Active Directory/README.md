@@ -24,9 +24,9 @@ For example, Window workstations were placed within the Workstations OU, allowin
 
 Security groups were created for the different departments within the simulated enterprise environment.
 
--***IT-Admins***
--***HR-Users***
--***Sales-Users***
+-***IT Admins***
+-***HR Users***
+-***Sales Users***
 
 Users were assigned to these groups based off the department they were apart of.
 
