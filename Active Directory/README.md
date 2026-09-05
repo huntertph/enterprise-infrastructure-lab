@@ -49,7 +49,7 @@ The script:
 
 The PowerShell script and example CSV struture are documented in the ***powershell*** portion of this repository.
 
-### Domain-Joined Workstations 
+### Domain Joined Workstations 
 
 Windows 11 Pro workstations were joined to the bsmentlab.local domain.
 
