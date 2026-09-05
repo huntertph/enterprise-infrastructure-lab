@@ -29,8 +29,7 @@ For each user, the script:
 
 1. Imports the user's information from the CSV file
 2. Reads the user's department
-3. Determines the appropriate Organizational Unit
-4. Determines the appropriate security group
+3. Determines the appropriate Organizational Unit and the appropriate security group
 5. Checks whether the account already exists
 6. Creates the Active Directory user account
 7. Enables the account
@@ -86,11 +85,7 @@ Add-ADGroupMember
 
 These commands allow Active Directory accounts and group memberships to be managed directly through PowerShell instead of relying entirely on graphical administration tools.
 
-## Security Considerations
 
-Credentials and passwords should not be stored directly in public scripts or repositories.
-
-The public version of the provisioning script will use sanitized example data and will not contain real credentials or sensitive information.
 
 ## Future Improvements
 
