@@ -74,4 +74,4 @@ This portion allowed me to develop hands on experience with:
 
 ## Active Directory Structure
 
-![Active Directory OU Structure](../screenshots/ad-ou-structure-example.png)
+![Active Directory OU Structure](../screenshots/ad-ou-structure-example.PNG)
