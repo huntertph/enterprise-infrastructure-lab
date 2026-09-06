@@ -13,7 +13,7 @@ The Windows Server ***LAB-DC01*** acts as the domain controller for the envirome
 I created Organizational Units to separate users and the endpoints based on their role within my environment. 
 
 
-
+![Active Directory OU Structure](../screenshots/ad-ou-structure-example.PNG)
 
 This structure separates user accounts from computer objects and allows policies and administrative tasks to be targeted toward specific parts of the environment.
 
@@ -53,7 +53,7 @@ The PowerShell script and example CSV structure are documented in the ***powersh
 
 Windows 11 Pro workstations were joined to the bsmentlab.local domain.
 
-After joining the domain, computer objects were organized within the Endpoints OU.
+After joining the domain, workstation computer objects were organized within the `Endpoints/Workstations` OU.
 
 Domain authentication was tested by signing into the workstations using Active Directory user accounts.
 
@@ -72,6 +72,3 @@ This portion allowed me to develop hands on experience with:
 - PowerShell based account provisioning
 - Organizing Active Directory for Group Policy management 
 
-## Active Directory Structure
-
-![Active Directory OU Structure](../screenshots/ad-ou-structure-example.PNG)
