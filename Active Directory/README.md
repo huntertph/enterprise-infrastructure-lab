@@ -13,7 +13,7 @@ The Windows Server ***LAB-DC01*** acts as the domain controller for the envirome
 I created Organizational Units to separate users and the endpoints based on their role within my environment. 
 
 
-![Active Directory OU Structure](../screenshots/ad-ou-structure-example.PNG)
+![Active Directory OU Structure](../Screenshots/ad-ou-structure-example.PNG)
 
 This structure separates user accounts from computer objects and allows policies and administrative tasks to be targeted toward specific parts of the environment.
 
