@@ -8,21 +8,21 @@ The Active Directory domain I chose was:
 
 The Windows Server ***LAB-DC01*** acts as the domain controller for the enviroment. 
 
-# Organizational Unit Structure 
+## Organizational Unit Structure 
 
-I created Organizational Units to separate users and the endpoints based on their role within my environment. 
+I created Organizational Units to separate users and the endpoints based on their role within my enviroment. 
 
 
 ![Active Directory OU Structure](../Screenshots/ad-ou-structure-example.PNG)
 
-This structure separates user accounts from computer objects and allows policies and administrative tasks to be targeted toward specific parts of the environment.
+This structure separates user accounts from computer objects and allows policies and administrative tasks to be targeted toward specific parts of the enviroment.
 
 For example, Windows workstations were placed within the Workstations OU, allowing workstation specific Group Policies to be applied without affecting servers or other objects.
 
 
 ### Security Groups
 
-Security groups were created for the different departments within the simulated enterprise environment.
+Security groups were created for the different departments within the simulated enterprise enviroment.
 
 ***IT-Admins,***
 ***HR-Users, and***
@@ -47,7 +47,7 @@ The script:
 5. Assigns the account to the appropriate security group
 6. Enables the account and requires a password change at first login
 
-The PowerShell script and example CSV structure are documented in the ***powershell*** portion of this repository.
+The PowerShell script and example CSV structure are documented in the ***PowerShell*** portion of this repository.
 
 ### Domain Joined Workstations 
 
