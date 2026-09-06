@@ -117,9 +117,7 @@ More in depth explanation of this server and how I handled the set-up is located
 
 ## Planned additions include:
 
-- SSH key-based authentication
 - Additional PowerShell reporting scripts
-- Linux service management with systemd
 - Additional security oriented Group Policies
 
 
