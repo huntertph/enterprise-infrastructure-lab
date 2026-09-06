@@ -72,3 +72,6 @@ This portion allowed me to develop hands on experience with:
 - PowerShell based account provisioning
 - Organizing Active Directory for Group Policy management 
 
+## Active Directory Structure
+
+![Active Directory OU Structure](../screenshots/ad-ou-structure.png)
