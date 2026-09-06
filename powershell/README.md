@@ -96,7 +96,6 @@ Planned improvements to the PowerShell portion of the lab include:
 - Group membership reporting
 - Disabled account reporting
 - Additional validation of CSV input
-- Improved password handling
 
 ## Key Takeaways
 
