@@ -1,18 +1,18 @@
 # Enterprise Infrastructure Lab
 
-Home Lab built to simulate enterprise IT environments using Windows Server, Active Directory, Group Policy, Power shell, Windows 11, and Ubuntu Server administration skills/
+Home Lab built to simulate enterprise IT environments using Windows Server, Active Directory, Group Policy, Power shell, Windows 11, and Ubuntu Server administration skills
 
 ## Overview 
 
-This project was created to refreshen my Ubuntu Server skills, and strengthen my practical infrastructure and systems administration skills by building and troubleshooting a small multi-system environment from the ground up.
+This project was created to refresh my Ubuntu Server skills, and strengthen my practical infrastructure and systems administration skills by building and troubleshooting a small multi-system environment from the ground up.
 
 ### The Lab includes:
 - Windows Server Domain Controller
 - Active Directory Domain Services
 - Organizational Units and Security Groups
-- Powershell-based user provisioning
-- Group policy management
-- Domain-joined Windows 11 workstation's
+- PowerShell based user provisioning
+- Group Policy management
+- Domain-joined Windows 11 workstations
 - Ubuntu Server administration
 - SSH remote access
 - Linux users, groups, and permissions
@@ -38,7 +38,7 @@ For a more detailed look at the Active Directory structure and security groups I
 
 ## PowerShell Automation
 
-Powershell was used to automate Active Directory user creation from CSV data.
+PowerShell was used to automate Active Directory user creation from CSV data.
 
 The scripts process was as follows:
 
@@ -47,28 +47,28 @@ The scripts process was as follows:
 3. Creates the Active Directory account
 4. Assigns the correct security group
 5. Enables the user account
-6. Requires a password change at first log in
+6. Requires a password change at first login
 
-This pattern reduced repetitive manual data entry and administration, also provided more familiarity with Powershell and command-line Active Directory automation. 
+This pattern reduced repetitive manual data entry and administration, also provided more familiarity with PowerShell and command-line Active Directory automation. 
 
-A more detailed look at the scripts and scripting process is available in the Powershell folder.
+A more detailed look at the scripts and scripting process is available in the PowerShell folder.
 
 ## DNS
 
-Alongside acting as the ADDC, LAB-DC01 also acted as the DNS server for all domain systems. 
+Alongside acting as the AD DC, LAB-DC01 also acted as the DNS server for all domain systems. 
 
 Clients within the domain can use the domain controller for DNS to resolve internal Active Directory resources.
 
-External DNS requests are forwarded to public DNS servers and Active Directory authentication and service discovery. 
+External DNS requests are forwarded to public DNS servers, while internal DNS supports Active Directory authentication and service discovery.
 
 ## Windows 11 Workstations
 
 There were several Windows 11 Pro virtual machines joined to the bsmentlab.local domain.
 
-These workstations were joined to the Active Directory
-Moved into the Workstations OU
-Tested using a domain user account from earlier Powershell scripts
-Managed through Group Policy
+- These workstations were joined to the Active Directory
+- Moved into the Workstations OU
+- Tested using a domain user account from earlier PowerShell scripts
+- Managed through Group Policy
 
 ## Group Policy:
 
@@ -86,7 +86,7 @@ This provided experience troubleshooting GPO application, OU placement, permissi
 
 ## Ubuntu Server
 
-For this lab a Ubuntu Server virtual machine was also added to the enviroment for Linux administration practice.
+For this lab a Ubuntu Server virtual machine was also added to the environment for Linux administration practice.
 
 Configuration as follows:
 
@@ -104,7 +104,7 @@ More in depth explanation of this server and how I handled the set-up is located
 - Windows Server administration
 - Active Directory
 - DNS
-- Powershell
+- PowerShell
 - Windows domain administration
 - Linux administration
 - SSH
@@ -120,7 +120,7 @@ More in depth explanation of this server and how I handled the set-up is located
 - SSH key-based authentication
 - Additional PowerShell reporting scripts
 - Linux service management with systemd
-- Additional security orientated Group Policies
+- Additional security oriented Group Policies
 
 
 
