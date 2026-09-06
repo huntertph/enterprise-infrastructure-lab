@@ -83,6 +83,5 @@ This portion of the lab provided hands-on experience with:
 - GPO troubleshooting
 - Centralized Windows endpoint configuration
 
-## Group Policy Configuration
-
+## Configuration Screenshot
 ![Workstation Security Baseline GPO](../Screenshots/workstation-ou.PNG)
