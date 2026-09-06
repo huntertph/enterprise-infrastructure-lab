@@ -1,6 +1,6 @@
 # Active Directory Configuration 
 
-This portion of the lab focused on building a centralized access managent enviroment using Active Directory Domain Services (AD DS) on Windows Server.
+This portion of the lab focused on building a centralized access management enviroment using Active Directory Domain Services (AD DS) on Windows Server.
 
 The Active Directory domain I chose was:
 
@@ -17,18 +17,18 @@ I created Organizational Units to separate users and the endpoints based on thei
 
 This structure separates user accounts from computer objects and allows policies and administrative tasks to be targeted toward specific parts of the environment.
 
-For example, Window workstations were placed within the Workstations OU, allowing workstation specific Group Policies be applied without affecting servers or other objects.
+For example, Windows workstations were placed within the Workstations OU, allowing workstation specific Group Policies to be applied without affecting servers or other objects.
 
 
 ### Security Groups
 
 Security groups were created for the different departments within the simulated enterprise environment.
 
-***IT Admins,***
-***HR Users, and***
-***Sales Users***
+***IT-Admins,***
+***HR-Users, and***
+***Sales-Users***
 
-Users were assigned to these groups based off the department they were apart of.
+Users were assigned to these groups based on the department they were a part of.
 
 Using security groups provides a centralized way to manage access based on a user's role rather than individually to each account.
 
@@ -47,7 +47,7 @@ The script:
 5. Assigns the account to the appropriate security group
 6. Enables the account and requires a password change at first login
 
-The PowerShell script and example CSV struture are documented in the ***powershell*** portion of this repository.
+The PowerShell script and example CSV structure are documented in the ***powershell*** portion of this repository.
 
 ### Domain Joined Workstations 
 
