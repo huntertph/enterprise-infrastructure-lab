@@ -65,7 +65,7 @@ External DNS requests are forwarded to public DNS servers, while internal DNS su
 
 There were several Windows 11 Pro virtual machines joined to the bsmentlab.local domain.
 
-- These workstations were joined to the Active Directory
+- These workstations were joined to the Active Directory domain
 - Moved into the Workstations OU
 - Tested using a domain user account from earlier PowerShell scripts
 - Managed through Group Policy
