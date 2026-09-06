@@ -1,6 +1,6 @@
 # Enterprise Infrastructure Lab
 
-Home Lab built to simulate enterprise IT environments using Windows Server, Active Directory, Group Policy, Power shell, Windows 11, and Ubuntu Server administration skills
+Home Lab built to simulate enterprise IT environment using Windows Server, Active Directory, Group Policy, Power shell, Windows 11, and Ubuntu Server.
 
 ## Overview 
 
@@ -49,7 +49,7 @@ The scripts process was as follows:
 5. Enables the user account
 6. Requires a password change at first login
 
-This pattern reduced repetitive manual data entry and administration, also provided more familiarity with PowerShell and command-line Active Directory automation. 
+This pattern reduced repetitive manual data entry and administration while also providing more familiarity with PowerShell and command-line Active Directory automation.
 
 A more detailed look at the scripts and scripting process is available in the PowerShell folder.
 
