@@ -44,7 +44,7 @@ gpresult /r /scope computer
 
 `gpresult /r /scope computer` was used to verify which computer policies were currently applied.
 
-The `Workstation Security Baseline` GPO appeared in the applied policy results as expected, which signaled my GPO application was successful.
+The `Workstation Security Baseline` GPO appeared in the applied policy results, confirming that the policy had been successfully applied.
 
 The workstation was then restarted and the login banner was visually confirmed.
 
